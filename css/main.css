@@ -1,14 +1,27 @@
-body{
-  background-color: black;
-  color: white;
+.navigation {
+  background-color: #3b3d42;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
 }
-div{
-  background-color: white;
-  color: black;
-  margin: auto;
-  width: 80%;
+ul {
+  margin: 0;
 }
-h1{
-  padding: 50px;
-  letter-spacing: 5px;
+li {
+  display: inline-block;
+  margin: 3px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 30px;
+  font-family: Calibri;
+  font-weight: 100;
+  font-size: 15px;
+}
+a:hover {
+  color: #75787c;
+}
+.apple {
+  font-size: 25px;
 }
